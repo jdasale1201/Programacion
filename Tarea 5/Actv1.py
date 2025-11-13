@@ -6,7 +6,7 @@ def numerosEnLista(a):
     for i in a:
         cuenta_num = cuenta_num + 1
     for n in a:
-        total += n
+        total = total + n
         media = total / cuenta_num
     return media
 
