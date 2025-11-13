@@ -2,9 +2,13 @@
 
 def numerosEnLista(a):
     total = 0
+    cuenta_num = 0
+    for i in a:
+        cuenta_num = cuenta_num + 1
     for n in a:
         total += n
-    return total
+        media = total / cuenta_num
+    return media
 
 try:
     numeros = []
@@ -14,6 +18,6 @@ try:
             break
         numeros.append(int(num))
     print(f"Los números son: {numeros}.")
-    print(f"La suma es:{numerosEnLista(numeros)}")
+    print(f"La media es:{numerosEnLista(numeros)}")
 except ValueError:
     print("Valor no válido.")
