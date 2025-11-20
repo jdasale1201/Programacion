@@ -7,7 +7,7 @@ try:
         print("Debe ser mayor a 0")
     else:
         for i in range(1, numero + 1):
-            print(str(numero) * i)
+            print(str("*") * i)
 
 except ValueError:
     print("Valor no válido.")

@@ -1,0 +1,7 @@
+#Escribir un programa que pida al usuario una palabra y luego muestre por pantalla una a una las letras de la palabra introducida empezando por la última.
+def partirLetra(a):
+    for letra in a:
+        print(letra)
+
+palabra = input("Dime una palabra: ")
+partirLetra(palabra)
