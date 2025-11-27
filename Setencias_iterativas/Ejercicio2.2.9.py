@@ -2,8 +2,9 @@
 
 def contraseña():
     PIN_correcto = "alberti"
+    intento_usuario = ""
 
-    while True:  
+    while PIN_correcto != intento_usuario:  
         intento_usuario = input("Introduce la contraseña: ")
         intento_usuario = intento_usuario.lower()
         if intento_usuario == PIN_correcto:

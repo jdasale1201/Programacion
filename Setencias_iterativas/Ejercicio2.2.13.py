@@ -2,12 +2,12 @@
 
 def eco():
     salir = "salir"
+    palabra = ""
 
-    while True:
+    while palabra != salir:
         palabra = input("Dime una palabra: ")
         if palabra == salir:
             print("Saliendo del programa...")
-            return True
         else:
             print(palabra)
 

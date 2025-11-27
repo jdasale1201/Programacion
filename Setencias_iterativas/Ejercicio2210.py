@@ -16,12 +16,14 @@ def primo(num):
     else:
         return True
 
-try:
-    num = int(input("Dime un número: "))
-    n = primo(num)
-    if n == False:
-        print("No es primo.")
-    else:
-        print("Es primo.")
-except ValueError:
-    print("Error inesperado.")
+if __name__ == "__main__":
+
+    try:
+        num = int(input("Dime un número: "))
+        n = primo(num)
+        if n == False:
+            print("No es primo.")
+        else:
+            print("Es primo.")
+    except ValueError:
+        print("Error inesperado.")

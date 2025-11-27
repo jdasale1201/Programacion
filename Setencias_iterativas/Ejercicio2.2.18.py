@@ -2,8 +2,9 @@
 
 def sumaDigito():
     salir = -1
+    numero = 0
     par = []
-    while True:
+    while numero != salir:
         numero = int(input("Dime un número entero: "))
         if numero == salir:
             return len(par)

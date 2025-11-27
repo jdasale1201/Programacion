@@ -1,9 +1,11 @@
-#Leer números enteros de teclado, hasta que el usuario ingrese el 0. Finalmente, mostrar la sumatoria de todos los números positivos ingresados.
+#Leer números enteros de teclado, hasta que el usuario ingrese el 0. 
+# Finalmente, mostrar la sumatoria de todos los números positivos ingresados.
 
 def cuentaNumero():
     salir = 0
+    numero = 0
     acumular = 0
-    while True:
+    while numero != salir:
         numero = int(input("Dime un numero entero: "))
         if numero == salir:
             return acumular

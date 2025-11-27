@@ -2,8 +2,9 @@
 
 def cuentaNumero():
     salir = 0
+    numero = 0
     acumular = 0
-    while True:
+    while numero != salir:
         numero = int(input("Dime un numero entero: "))
         if numero == salir:
             return acumular
