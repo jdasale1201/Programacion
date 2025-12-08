@@ -6,7 +6,7 @@
 frase = input("Introduce una frase: ")
 
 #Divide la frase en palabras usando split()
-palabras = frase.split()
+palabras = frase.split(" ")
 
 #Inicializa variables
 cantidad_palabras = 0
